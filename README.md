@@ -18,7 +18,7 @@
 1. Find out how to use CSS to rotate elements with [this W3schools article](https://www.w3schools.com/cssref/css3_pr_transform.asp).
 2. Open `style.js` in Sublime Text. **Use JQuery** to change the style of the MEET logo:
     - Finish the function `updateSize`. You should set the width of the the MEET logo to equal `newSize` in pixels.
-    - Finish the function `updateRotation`. You should use the values of the variables `x`, `y`, and `z` in order to set the rotation of the MEET logo.
+    - Finish the function `updateLeftPosition` and `updateTopPosition` functions.
 3. If you finished, get checked off by a TA or instructor. Nice job!
 
 <img src="images/style.gif">
