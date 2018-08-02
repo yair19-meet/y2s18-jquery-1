@@ -10,3 +10,9 @@ function randomY() {
 /* END PROVIDED CODE */
 
 // Write your code below this line :)
+$("#moveButton").on("click", function() {
+	$("#message").css("left", randomX());
+	$("#message").css("top", randomY());
+	$("#message").css("font-size", randomX() - randomY());
+
+});
